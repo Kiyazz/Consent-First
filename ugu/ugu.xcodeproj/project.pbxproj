@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50A2EBE026E5CC9D00A036CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A2EBDF26E5CC9D00A036CB /* AppDelegate.swift */; };
+		50A2EBE226E5CC9D00A036CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A2EBE126E5CC9D00A036CB /* SceneDelegate.swift */; };
+		50A2EBE426E5CC9D00A036CB /* IntroScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A2EBE326E5CC9D00A036CB /* IntroScreen.swift */; };
+		50A2EBE726E5CC9D00A036CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A2EBE526E5CC9D00A036CB /* Main.storyboard */; };
+		50A2EBEA26E5CC9D00A036CB /* ugu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50A2EBE826E5CC9D00A036CB /* ugu.xcdatamodeld */; };
+		50A2EBEC26E5CCA200A036CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A2EBEB26E5CCA200A036CB /* Assets.xcassets */; };
+		50A2EBEF26E5CCA200A036CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A2EBED26E5CCA200A036CB /* LaunchScreen.storyboard */; };
+		50A2EBFA26E5CCA200A036CB /* uguTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A2EBF926E5CCA200A036CB /* uguTests.swift */; };
+		50A2EC0526E5CCA200A036CB /* uguUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A2EC0426E5CCA200A036CB /* uguUITests.swift */; };
+		50A2EC1326E5EA2800A036CB /* mainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A2EC1226E5EA2800A036CB /* mainScreen.swift */; };
+		50AFEB2126EEB54A008BEBCB /* ScreenLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFEB2026EEB54A008BEBCB /* ScreenLoader.swift */; };
+		50AFEB2526EECFE0008BEBCB /* Signaturerecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFEB2426EECFE0008BEBCB /* Signaturerecognizer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50A2EBF626E5CCA200A036CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50A2EBD426E5CC9D00A036CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A2EBDB26E5CC9D00A036CB;
+			remoteInfo = ugu;
+		};
+		50A2EC0126E5CCA200A036CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50A2EBD426E5CC9D00A036CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A2EBDB26E5CC9D00A036CB;
+			remoteInfo = ugu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50A2EBDC26E5CC9D00A036CB /* ugu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ugu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A2EBDF26E5CC9D00A036CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50A2EBE126E5CC9D00A036CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		50A2EBE326E5CC9D00A036CB /* IntroScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScreen.swift; sourceTree = "<group>"; };
+		50A2EBE626E5CC9D00A036CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50A2EBE926E5CC9D00A036CB /* ugu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ugu.xcdatamodel; sourceTree = "<group>"; };
+		50A2EBEB26E5CCA200A036CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50A2EBEE26E5CCA200A036CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50A2EBF026E5CCA200A036CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A2EBF526E5CCA200A036CB /* uguTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uguTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A2EBF926E5CCA200A036CB /* uguTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uguTests.swift; sourceTree = "<group>"; };
+		50A2EBFB26E5CCA200A036CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A2EC0026E5CCA200A036CB /* uguUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uguUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A2EC0426E5CCA200A036CB /* uguUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uguUITests.swift; sourceTree = "<group>"; };
+		50A2EC0626E5CCA200A036CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A2EC1226E5EA2800A036CB /* mainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainScreen.swift; sourceTree = "<group>"; };
+		50AFEB2026EEB54A008BEBCB /* ScreenLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenLoader.swift; sourceTree = "<group>"; };
+		50AFEB2426EECFE0008BEBCB /* Signaturerecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signaturerecognizer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50A2EBD926E5CC9D00A036CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A2EBF226E5CCA200A036CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A2EBFD26E5CCA200A036CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50A2EBD326E5CC9D00A036CB = {
+			isa = PBXGroup;
+			children = (
+				50A2EBDE26E5CC9D00A036CB /* ugu */,
+				50A2EBF826E5CCA200A036CB /* uguTests */,
+				50A2EC0326E5CCA200A036CB /* uguUITests */,
+				50A2EBDD26E5CC9D00A036CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50A2EBDD26E5CC9D00A036CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50A2EBDC26E5CC9D00A036CB /* ugu.app */,
+				50A2EBF526E5CCA200A036CB /* uguTests.xctest */,
+				50A2EC0026E5CCA200A036CB /* uguUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50A2EBDE26E5CC9D00A036CB /* ugu */ = {
+			isa = PBXGroup;
+			children = (
+				50A2EBDF26E5CC9D00A036CB /* AppDelegate.swift */,
+				50A2EBE126E5CC9D00A036CB /* SceneDelegate.swift */,
+				50A2EBE326E5CC9D00A036CB /* IntroScreen.swift */,
+				50A2EBE526E5CC9D00A036CB /* Main.storyboard */,
+				50A2EBEB26E5CCA200A036CB /* Assets.xcassets */,
+				50A2EBED26E5CCA200A036CB /* LaunchScreen.storyboard */,
+				50A2EBF026E5CCA200A036CB /* Info.plist */,
+				50A2EBE826E5CC9D00A036CB /* ugu.xcdatamodeld */,
+				50A2EC1226E5EA2800A036CB /* mainScreen.swift */,
+				50AFEB2026EEB54A008BEBCB /* ScreenLoader.swift */,
+				50AFEB2426EECFE0008BEBCB /* Signaturerecognizer.swift */,
+			);
+			path = ugu;
+			sourceTree = "<group>";
+		};
+		50A2EBF826E5CCA200A036CB /* uguTests */ = {
+			isa = PBXGroup;
+			children = (
+				50A2EBF926E5CCA200A036CB /* uguTests.swift */,
+				50A2EBFB26E5CCA200A036CB /* Info.plist */,
+			);
+			path = uguTests;
+			sourceTree = "<group>";
+		};
+		50A2EC0326E5CCA200A036CB /* uguUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50A2EC0426E5CCA200A036CB /* uguUITests.swift */,
+				50A2EC0626E5CCA200A036CB /* Info.plist */,
+			);
+			path = uguUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50A2EBDB26E5CC9D00A036CB /* ugu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A2EC0926E5CCA200A036CB /* Build configuration list for PBXNativeTarget "ugu" */;
+			buildPhases = (
+				50A2EBD826E5CC9D00A036CB /* Sources */,
+				50A2EBD926E5CC9D00A036CB /* Frameworks */,
+				50A2EBDA26E5CC9D00A036CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ugu;
+			productName = ugu;
+			productReference = 50A2EBDC26E5CC9D00A036CB /* ugu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50A2EBF426E5CCA200A036CB /* uguTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A2EC0C26E5CCA200A036CB /* Build configuration list for PBXNativeTarget "uguTests" */;
+			buildPhases = (
+				50A2EBF126E5CCA200A036CB /* Sources */,
+				50A2EBF226E5CCA200A036CB /* Frameworks */,
+				50A2EBF326E5CCA200A036CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50A2EBF726E5CCA200A036CB /* PBXTargetDependency */,
+			);
+			name = uguTests;
+			productName = uguTests;
+			productReference = 50A2EBF526E5CCA200A036CB /* uguTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50A2EBFF26E5CCA200A036CB /* uguUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A2EC0F26E5CCA200A036CB /* Build configuration list for PBXNativeTarget "uguUITests" */;
+			buildPhases = (
+				50A2EBFC26E5CCA200A036CB /* Sources */,
+				50A2EBFD26E5CCA200A036CB /* Frameworks */,
+				50A2EBFE26E5CCA200A036CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50A2EC0226E5CCA200A036CB /* PBXTargetDependency */,
+			);
+			name = uguUITests;
+			productName = uguUITests;
+			productReference = 50A2EC0026E5CCA200A036CB /* uguUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50A2EBD426E5CC9D00A036CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					50A2EBDB26E5CC9D00A036CB = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					50A2EBF426E5CCA200A036CB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 50A2EBDB26E5CC9D00A036CB;
+					};
+					50A2EBFF26E5CCA200A036CB = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 50A2EBDB26E5CC9D00A036CB;
+					};
+				};
+			};
+			buildConfigurationList = 50A2EBD726E5CC9D00A036CB /* Build configuration list for PBXProject "ugu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50A2EBD326E5CC9D00A036CB;
+			productRefGroup = 50A2EBDD26E5CC9D00A036CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50A2EBDB26E5CC9D00A036CB /* ugu */,
+				50A2EBF426E5CCA200A036CB /* uguTests */,
+				50A2EBFF26E5CCA200A036CB /* uguUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50A2EBDA26E5CC9D00A036CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A2EBEF26E5CCA200A036CB /* LaunchScreen.storyboard in Resources */,
+				50A2EBEC26E5CCA200A036CB /* Assets.xcassets in Resources */,
+				50A2EBE726E5CC9D00A036CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A2EBF326E5CCA200A036CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A2EBFE26E5CCA200A036CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50A2EBD826E5CC9D00A036CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A2EBE426E5CC9D00A036CB /* IntroScreen.swift in Sources */,
+				50A2EBEA26E5CC9D00A036CB /* ugu.xcdatamodeld in Sources */,
+				50AFEB2526EECFE0008BEBCB /* Signaturerecognizer.swift in Sources */,
+				50A2EC1326E5EA2800A036CB /* mainScreen.swift in Sources */,
+				50A2EBE026E5CC9D00A036CB /* AppDelegate.swift in Sources */,
+				50AFEB2126EEB54A008BEBCB /* ScreenLoader.swift in Sources */,
+				50A2EBE226E5CC9D00A036CB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A2EBF126E5CCA200A036CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A2EBFA26E5CCA200A036CB /* uguTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A2EBFC26E5CCA200A036CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A2EC0526E5CCA200A036CB /* uguUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50A2EBF726E5CCA200A036CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50A2EBDB26E5CC9D00A036CB /* ugu */;
+			targetProxy = 50A2EBF626E5CCA200A036CB /* PBXContainerItemProxy */;
+		};
+		50A2EC0226E5CCA200A036CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50A2EBDB26E5CC9D00A036CB /* ugu */;
+			targetProxy = 50A2EC0126E5CCA200A036CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50A2EBE526E5CC9D00A036CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A2EBE626E5CC9D00A036CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50A2EBED26E5CCA200A036CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A2EBEE26E5CCA200A036CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50A2EC0726E5CCA200A036CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50A2EC0826E5CCA200A036CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50A2EC0A26E5CCA200A036CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQDM97VSC3;
+				INFOPLIST_FILE = ugu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Easy-Assist-Inc..ugu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50A2EC0B26E5CCA200A036CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQDM97VSC3;
+				INFOPLIST_FILE = ugu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Easy-Assist-Inc..ugu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50A2EC0D26E5CCA200A036CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQDM97VSC3;
+				INFOPLIST_FILE = uguTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Easy-Assist-Inc..uguTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ugu.app/ugu";
+			};
+			name = Debug;
+		};
+		50A2EC0E26E5CCA200A036CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQDM97VSC3;
+				INFOPLIST_FILE = uguTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Easy-Assist-Inc..uguTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ugu.app/ugu";
+			};
+			name = Release;
+		};
+		50A2EC1026E5CCA200A036CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQDM97VSC3;
+				INFOPLIST_FILE = uguUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Easy-Assist-Inc..uguUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ugu;
+			};
+			name = Debug;
+		};
+		50A2EC1126E5CCA200A036CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQDM97VSC3;
+				INFOPLIST_FILE = uguUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Easy-Assist-Inc..uguUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ugu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50A2EBD726E5CC9D00A036CB /* Build configuration list for PBXProject "ugu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A2EC0726E5CCA200A036CB /* Debug */,
+				50A2EC0826E5CCA200A036CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A2EC0926E5CCA200A036CB /* Build configuration list for PBXNativeTarget "ugu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A2EC0A26E5CCA200A036CB /* Debug */,
+				50A2EC0B26E5CCA200A036CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A2EC0C26E5CCA200A036CB /* Build configuration list for PBXNativeTarget "uguTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A2EC0D26E5CCA200A036CB /* Debug */,
+				50A2EC0E26E5CCA200A036CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A2EC0F26E5CCA200A036CB /* Build configuration list for PBXNativeTarget "uguUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A2EC1026E5CCA200A036CB /* Debug */,
+				50A2EC1126E5CCA200A036CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50A2EBE826E5CC9D00A036CB /* ugu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50A2EBE926E5CC9D00A036CB /* ugu.xcdatamodel */,
+			);
+			currentVersion = 50A2EBE926E5CC9D00A036CB /* ugu.xcdatamodel */;
+			path = ugu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 50A2EBD426E5CC9D00A036CB /* Project object */;
+}
