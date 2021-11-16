@@ -13,7 +13,7 @@ import AVFoundation
 
 
 
-class mainScreen : UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDelegate, MFMailComposeViewControllerDelegate {
+class mainScreen : UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDelegate, MFMailComposeViewControllerDelegate, {
     
     
     
@@ -25,6 +25,7 @@ class mainScreen : UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDeleg
             play1.isEnabled = true;
             isRecording1 = false;
         }
+        
         else {
             setUpRecorder();
             
@@ -85,6 +86,11 @@ class mainScreen : UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDeleg
         mailComposeVC.setToRecipients(sendTo);
         mailComposeVC.setSubject("Consent Form");
         mailComposeVC.setMessageBody(nameBox1.text!, isHTML: false);
+        let fileData1 = NSData(contentsOfFile: getFileURL(name: "Recording1.m4a"));
+        
+        if let fileData = fileData1 {
+            mailComposeVC.addAttachmentData(fileData, mimeType: "application/pdf", fileName: "Recording1.m4a")
+        }
         
         return mailComposeVC;
     }
